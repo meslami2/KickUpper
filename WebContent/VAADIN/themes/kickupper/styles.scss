@@ -1,0 +1,43 @@
+@import "addons.scss";
+@import "kickupper.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in kickupper.scss */
+.kickupper {
+  @include addons;
+  @include kickupper;
+}
+
+.resultL {
+	background-color: #EFEFEF;
+	border: 2px solid #DDDDDD; 
+}
+
+.body {
+font-size: 20pt;
+}
+
+.header {
+font-weight: bold;
+background-color: #FEFECC;
+border-top: 3px solid #FEEEBB;
+border-bottom: 3px solid #FEEEBB;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 15px;
+}
+
+
+
+.kickupper .v-widget .header {
+font-size: 24pt;
+font-family: tahome;
+}
+
+
+.kickupper .v-button-wrap, .kickupper .v-button-caption {
+margin-left: 5px;
+margin-right: 5px;
+font-size:11pt;
+font-family: tahoma;
+}
